@@ -1,0 +1,36 @@
+{
+  "name": "typed-dgram",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core dgram library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc test/test.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-dgram.git"
+  },
+  "keywords": [
+    "typescript",
+    "dgram",
+    "module",
+    "typed",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-dgram/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-dgram#readme",
+  "dependencies": {
+    "typed-node": "^1.0.1",
+    "typed-events": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
+}
